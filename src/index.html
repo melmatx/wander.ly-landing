@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wander.ly | Walk, Earn, Connect</title>
+    <meta property="og:title" content="Wander.ly | Walk, Earn, Connect" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#070e27ff" />
+
+    <style data-tag="reset-style-sheet">
+      html {
+        line-height: 1.15;
+      }
+      body {
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+      }
+      p,
+      li,
+      ul,
+      pre,
+      div,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      figure,
+      blockquote,
+      figcaption {
+        margin: 0;
+        padding: 0;
+      }
+      button {
+        background-color: transparent;
+      }
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+      }
+      button,
+      select {
+        text-transform: none;
+      }
+      button::-moz-focus-inner,
+      [type="button"]::-moz-focus-inner,
+      [type="reset"]::-moz-focus-inner,
+      [type="submit"]::-moz-focus-inner {
+        border-style: none;
+        padding: 0;
+      }
+      button:-moz-focus,
+      [type="button"]:-moz-focus,
+      [type="reset"]:-moz-focus,
+      [type="submit"]:-moz-focus {
+        outline: 1px dotted ButtonText;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      input {
+        padding: 2px 4px;
+      }
+      img {
+        display: block;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="public/favicon.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      body::-webkit-scrollbar {
+        width: 0.5em;
+        z-index: 100;
+        background-color: transparent;
+      }
+
+      body::-webkit-scrollbar-thumb {
+        background-color: white;
+        box-shadow: 0 -100vh 0 100vh var(--dl-color-template-blue-primary-semi);
+      }
+    </style>
+
+    <!-- Vendor CSS Files -->
+    <link href="./assets/vendor/aos/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <div>
+      <link href="assets/css/index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div class="home-nav-bar">
+          <div id="menu" class="home-menu">
+            <div id="mobile-menu" class="home-mobile-navigation">
+              <img
+                alt="pastedImage"
+                src="public/logo-dark-1500h.png"
+                class="home-logo"
+              />
+              <div class="home-links">
+                <a href="#introduction" class="Link">Introduction</a>
+                <a href="#features" class="Link">Features</a>
+                <a href="#how-it-works" class="Link">How it works</a>
+                <a href="#faq" class="Link">FAQ</a>
+              </div>
+              <div id="close-mobile-menu" class="home-close-mobile-menu">
+                <svg viewBox="0 0 804.5714285714286 1024" class="home-icon">
+                  <path
+                    d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="home-desktop-navigation">
+              <nav class="home-centered">
+                <div class="home-left">
+                  <a href="#">
+                    <img
+                      alt="pastedImage"
+                      src="public/logo-200h.png"
+                      class="home-logo1"
+                    />
+                  </a>
+                  <div class="home-links1">
+                    <a href="#introduction" class="home-link Link">
+                      Introduction
+                    </a>
+                    <a href="#features" class="home-link1 Link">Features</a>
+                    <a href="#how-it-works" class="home-link2 Link">
+                      How it works
+                    </a>
+                    <a href="#faq" class="home-text003 Link">FAQ</a>
+                  </div>
+                </div>
+                <div class="home-right">
+                  <a href="#cta" class="home-link3">
+                    <div class="home-get-started">
+                      <span class="home-text004">Sign Up for Beta</span>
+                    </div>
+                  </a>
+                  <div id="open-mobile-menu" class="home-burger-menu">
+                    <img
+                      alt="pastedImage"
+                      src="public/mobile%20menu.svg"
+                      class="home-mobile-menu-button"
+                    />
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div>
+              <div class="home-container02">
+                <script defer="">
+                  /*
+                  Mobile menu - Code Embed
+                  */
+
+                  // Mobile menu
+                  const mobileMenu = document.querySelector("#mobile-menu");
+
+                  // Buttons
+                  const closeButton =
+                    document.querySelector("#close-mobile-menu");
+                  const openButton =
+                    document.querySelector("#open-mobile-menu");
+
+                  // On openButton click, set the mobileMenu position left to -100vw
+                  openButton.addEventListener("click", function () {
+                    mobileMenu.style.transform = "translateX(0%)";
+                  });
+
+                  // On closeButton click, set the mobileMenu position to 0vw
+                  closeButton.addEventListener("click", function () {
+                    mobileMenu.style.transform = "translateX(100%)";
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <script>
+            // Hide navbar on scroll down and show on scroll up
+            let lastScrollTop = 0;
+            const navbar = document.querySelector(".home-nav-bar");
+            const threshold = 80;
+
+            window.addEventListener("scroll", function () {
+              let scrollTop =
+                window.pageYOffset || document.documentElement.scrollTop;
+              if (Math.abs(scrollTop - lastScrollTop) < threshold) {
+                return;
+              }
+              if (scrollTop > lastScrollTop) {
+                navbar.style.top = "-100vh";
+              } else {
+                navbar.style.top = "0";
+              }
+              lastScrollTop = scrollTop;
+            });
+          </script>
+        </div>
+        <section class="home-hero">
+          <header class="home-header">
+            <h1 class="home-text005">Get Rewarded For Every Step You Take</h1>
+            <p class="home-text006">
+              Experience the next generation of exploration and rewards, while
+              being green and empowering the local community
+            </p>
+            <a href="#introduction" class="home-link4">
+              <div class="home-get-started1">
+                <span class="home-text007">Get started</span>
+              </div>
+            </a>
+          </header>
+          <img
+            alt="image"
+            src="public/overview-1500w.png"
+            class="home-image"
+            data-aos="fade"
+          />
+        </section>
+        <section id="introduction" class="home-introduction">
+          <div class="home-title">
+            <span class="home-text008">What is Wander.ly?</span>
+            <span class="home-text009">
+              Wander.ly turns your daily walks into a journey of rewards. Earn
+              perks from local businesses, connect with a community of
+              explorers, and make a positive impact on the environment, all
+              through the simple act of walking. Ready to step out and explore?
+            </span>
+          </div>
+          <div class="home-cards">
+            <div class="home-container03">
+              <div class="home-schedule card" data-aos="zoom-in">
+                <svg viewBox="0 0 1024 1024" class="home-icon02">
+                  <path
+                    d="M504 466q44 12 73 24t61 33 49 53 17 76q0 62-41 101t-109 51v92h-128v-92q-66-14-109-56t-47-108h94q8 90 126 90 62 0 89-23t27-53q0-72-128-104-200-46-200-176 0-58 42-99t106-55v-92h128v94q66 16 101 60t37 102h-94q-4-90-108-90-52 0-83 22t-31 58q0 58 128 92z"
+                  ></path>
+                </svg>
+                <span class="home-text019">Walk &amp; Earn</span>
+                <span class="home-text020">
+                  Earn rewards by completing walking goals/tasks. The more you
+                  walk, the more you earn. It's that simple.
+                </span>
+              </div>
+              <div
+                class="home-publish card"
+                data-aos="zoom-in"
+                data-aos-delay="400"
+              >
+                <svg viewBox="0 0 1024 1024" class="home-icon04">
+                  <path
+                    d="M418 380l-120 602h90l78-342 88 86v256h86v-320l-90-86 26-128q92 106 234 106v-84q-124 0-182-104l-44-68q-30-42-72-42-6 0-17 2t-17 2l-222 94v200h86v-144l76-30zM576 234q-34 0-60-25t-26-59 26-60 60-26 60 26 26 60-26 59-60 25z"
+                  ></path>
+                </svg>
+                <span class="home-text021">Active Goals</span>
+                <span class="home-text022">
+                  Build an active lifestyle and set a fitness routine through
+                  walking goals generated by the app. Being active has never
+                  been this easy.
+                </span>
+              </div>
+            </div>
+            <div class="home-container04">
+              <div
+                class="home-schedule1 card"
+                data-aos="zoom-in"
+                data-aos-delay="800"
+              >
+                <svg viewBox="0 0 1024 1024" class="home-icon06">
+                  <path
+                    d="M726 512l170 256h-300v170h-168v-170h-296l166-256h-82l296-426 298 426h-84z"
+                  ></path>
+                </svg>
+                <span class="home-text023">Green Steps</span>
+                <span class="home-text024">
+                  Save the earth by walking — The app tracks your carbon savings
+                  and trees preserved from walks. YOU can make a difference.
+                </span>
+              </div>
+              <div
+                class="home-publish1 card"
+                data-aos="zoom-in"
+                data-aos-delay="1200"
+              >
+                <svg viewBox="0 0 1024 1024" class="home-icon08">
+                  <path
+                    d="M682 554q56 0 122 16t122 52 56 82v106h-256v-106q0-88-84-148 14-2 40-2zM342 554q56 0 122 16t121 52 55 82v106h-598v-106q0-46 56-82t122-52 122-16zM342 470q-52 0-90-38t-38-90 38-90 90-38 89 38 37 90-37 90-89 38zM682 470q-52 0-90-38t-38-90 38-90 90-38 90 38 38 90-38 90-90 38z"
+                  ></path>
+                </svg>
+                <span class="home-text025">Community Trails</span>
+                <span class="home-text026">
+                  Share your walking journey with others and connect with other
+                  wanderers in the app. You can even walk with your friends in
+                  the app.
+                </span>
+              </div>
+            </div>
+            <div class="home-container05">
+              <div
+                class="home-analyze card"
+                data-aos="zoom-in"
+                data-aos-delay="800"
+              >
+                <svg viewBox="0 0 1024 1024" class="home-icon10">
+                  <path
+                    d="M512 768v-170h-256v170h256zM896 598h-42v256h-86v-256h-170v256h-428v-256h-42v-86l42-214h684l42 214v86zM854 170v86h-684v-86h684z"
+                  ></path>
+                </svg>
+                <span class="home-text027">Support Local</span>
+                <span class="home-text028">
+                  Support small businesses and help them gain traction (by
+                  simply visiting their airdrop regions).&nbsp;
+                </span>
+              </div>
+              <div
+                class="home-get-leads card"
+                data-aos="zoom-in"
+                data-aos-delay="1200"
+              >
+                <svg viewBox="0 0 1024 1024" class="home-icon12">
+                  <path
+                    d="M606 606l162-350-350 162-162 350zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM512 466q20 0 33 13t13 33-13 33-33 13-33-13-13-33 13-33 33-13z"
+                  ></path>
+                </svg>
+                <span class="home-text029">Explore &amp; Ascend</span>
+                <span class="home-text030">
+                  Unlock achievements and level up as you explore the world.
+                  Become a #Wanderer and step outside your comfort zone.
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-quote-container">
+          <div class="home-quote">
+            <span class="home-message">
+              "The researchers from Imperial College London and the University
+              of Cambridge says that increased walking and cycling post-lockdown
+              may reduce deaths from heart disease and cancer."
+            </span>
+            <div class="home-author">
+              <img
+                alt="image"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fGdpcmx8ZW58MHx8fHwxNjY0ODA5MjE1&amp;ixlib=rb-1.2.1&amp;w=200"
+                class="home-avatar"
+              />
+              <span class="home-quote1">
+                <span class="home-text031">
+                  —&nbsp; University of Cambridge
+                </span>
+                <span>, Good News Network</span>
+              </span>
+            </div>
+          </div>
+          <img
+            alt="image"
+            src="public/bg-1200w.png"
+            class="home-image1"
+            data-aos="fade"
+            data-aos-delay="100"
+          />
+        </section>
+        <section class="home-statistics">
+          <div class="home-container06">
+            <div class="statistic-box metrics" data-aos="fade">
+              <span class="statistic-box-text"><span>20%</span></span>
+              <span class="statistic-box-text1">
+                <span>reduced rate of early death</span>
+              </span>
+            </div>
+            <div
+              class="statistic-box metrics"
+              data-aos="fade"
+              data-aos-delay="200"
+            >
+              <span class="statistic-box-text"><span>24%</span></span>
+              <span class="statistic-box-text1">
+                <span>reduced rate of death from cardiovascular disease</span>
+              </span>
+            </div>
+            <div
+              class="statistic-box metrics"
+              data-aos="fade"
+              data-aos-delay="400"
+            >
+              <span class="statistic-box-text"><span>16%</span></span>
+              <span class="statistic-box-text1">
+                <span>reduced rate of death from cancer</span>
+              </span>
+            </div>
+            <div
+              class="statistic-box metrics"
+              data-aos="fade"
+              data-aos-delay="800"
+            >
+              <span class="statistic-box-text"><span>11%</span></span>
+              <span class="statistic-box-text1">
+                <span>reduced rate of a cancer diagnosis</span>
+              </span>
+            </div>
+          </div>
+        </section>
+        <section id="features" class="home-features">
+          <section class="home-transition">
+            <div class="home-container07">
+              <span class="home-text033 title">Features</span>
+            </div>
+            <p class="home-text034" data-aos="zoom-out">
+              Get ready for the most exciting innovation of features yet. Let's
+              dive in, shall we?
+            </p>
+          </section>
+          <div class="home-banner-manage">
+            <div class="home-container08">
+              <div class="home-left1">
+                <span class="home-text035 sub-title">AI-Generated Goals</span>
+                <span class="home-text036 title">Get Moving, Stay Fit</span>
+                <span class="home-text037">
+                  Earn rewards by meeting personalized walking goals set for
+                  morning, afternoon, and evening. Our AI tailors these goals to
+                  help you build an active lifestyle effortlessly.
+                </span>
+                <div class="home-get-started2 template-button">
+                  <span class="home-text038">Examples</span>
+                </div>
+              </div>
+              <div
+                class="home-image-container"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <img
+                  alt="pastedImage"
+                  src="public/goals-1200w.png"
+                  class="home-cards-image"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="home-banner-advanced-analytics">
+            <div class="home-centered-container">
+              <div class="home-image-container1" data-aos="fade-right">
+                <img
+                  alt="pastedImage"
+                  src="public/local-1200w.png"
+                  class="home-cards-image1"
+                />
+              </div>
+              <div class="home-right1">
+                <span class="home-text039 sub-title">
+                  Physical Airdrop Rewards
+                </span>
+                <h2 class="home-text040 title">Boost Small Businesses</h2>
+                <div class="home-category">
+                  <span class="home-text041">Rewards Galore</span>
+                  <span class="home-text042">
+                    Participate in exclusive airdrop events by small/local
+                    businesses. Simply walk within the specified regions, scan
+                    the QR code, and enjoy a variety of rewards from coupons to
+                    in-app perks.
+                  </span>
+                  <span class="home-text043">Example -&gt;</span>
+                </div>
+                <div class="home-category1">
+                  <span class="home-text044">Discover Local Gems</span>
+                  <span class="home-text045">
+                    Explore new corners of your city and help your local
+                    business to gain traction.
+                  </span>
+                  <span class="home-text046">Example -&gt;</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-banner">
+            <div class="home-container09">
+              <div class="home-left2">
+                <span class="home-text047">Community Sharing</span>
+                <h2 class="home-text048 title">Share, Like, Award</h2>
+                <span class="home-text049">
+                  After completing walking tasks or attending airdrop events,
+                  share your journey in our Community. Engage with posts in a
+                  Tinder-like interface by liking, disliking, or awarding, and
+                  even donate points to fellow wanderers for their outstanding
+                  contributions.
+                </span>
+                <div class="home-get-started3 template-button">
+                  <span class="home-text050">Community</span>
+                </div>
+              </div>
+              <div class="home-image-container2" data-aos="fade-left">
+                <img
+                  alt="pastedImage"
+                  src="public/community-1400w.png"
+                  class="home-cards-image2"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="home-banner-advanced-analytics1">
+            <div class="home-centered-container1">
+              <div class="home-image-container3" data-aos="fade-up">
+                <img
+                  alt="pastedImage"
+                  src="public/achievements-900w.png"
+                  class="home-cards-image3"
+                />
+              </div>
+              <div class="home-right2">
+                <span class="home-text051 sub-title"
+                  >Eco-Friendly Statistics</span
+                >
+                <h2 class="home-text052 title">Walk More, Save the Planet</h2>
+                <div class="home-category2">
+                  <span class="home-text053">Track Your Green Steps</span>
+                  <span class="home-text054">
+                    Witness the environmental impact of your choices by
+                    monitoring carbon emission reductions and the number of
+                    trees preserved.
+                  </span>
+                  <span class="home-text055">Example -&gt;</span>
+                </div>
+                <div class="home-category3">
+                  <span class="home-text056">Greener Alternative</span>
+                  <span class="home-text057">
+                    Inspire and be inspired to opt for walking, contributing to
+                    a healthier planet.
+                  </span>
+                  <span class="home-text058">Example -&gt;</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-banner-manage1">
+            <div class="home-container10">
+              <div class="home-left3">
+                <span class="home-text059 sub-title">
+                  Exploration and Growth Leveling
+                </span>
+                <span class="home-text060 title">
+                  Explore, Level Up, Be a #Wanderer
+                </span>
+                <span class="home-text061">
+                  With each step outside your comfort zone, you level up.
+                  Wander.ly isn't just about walking; it's about exploring the
+                  world and growing as an individual. Join us, and embrace the
+                  wanderer within.
+                </span>
+                <a href="#footer" class="home-link5">
+                  <div class="home-get-started4 template-button">
+                    <span class="home-text062">Follow Us</span>
+                  </div>
+                </a>
+              </div>
+              <div class="home-image-container4" data-aos="fade-up">
+                <img
+                  alt="pastedImage"
+                  src="public/explorer-1200w.png"
+                  class="home-cards-image4"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="how-it-works" class="home-how-it-works">
+          <div class="home-centered-container2">
+            <div class="home-heading">
+              <span class="home-text063">How it works</span>
+              <span class="home-text064 title">
+                Being a #Wanderer has never been easier
+              </span>
+            </div>
+            <div class="home-category4" data-aos="zoom-in-up">
+              <div class="home-headng">
+                <span class="home-text065">1 — Sign up</span>
+                <span class="home-text066">
+                  Begin your Wander.ly adventure by creating an account using
+                  the Internet Computer Protocol's (ICP) internet identity. This
+                  ensures maximum security and reliability. After logging in,
+                  you will be greeted by the map view where you can see your
+                  tasks.
+                </span>
+                <a
+                  href="https://internetcomputer.org/internet-identity"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link6"
+                >
+                  <div class="home-get-started5 template-button">
+                    <span class="home-text067">More Info</span>
+                  </div>
+                </a>
+              </div>
+              <div class="home-container11">
+                <img
+                  alt="pastedImage"
+                  src="public/login-1000w.png"
+                  class="home-pasted-image"
+                />
+              </div>
+            </div>
+            <div class="home-row">
+              <div
+                class="home-category5"
+                data-aos="zoom-in"
+                data-aos-delay="400"
+              >
+                <div class="home-headng1">
+                  <span class="home-text068">2 — Complete Tasks</span>
+                  <span class="home-text069">
+                    Dive into a variety of walking tasks designed by Wander.ly.
+                    Engage even further by visiting physical airdrop regions
+                    hosted by local businesses—just go and scan their QR codes
+                    to earn special rewards.
+                  </span>
+                </div>
+                <img
+                  alt="pastedImage"
+                  src="public/tasks-1000w.png"
+                  class="home-pasted-image1"
+                />
+              </div>
+              <div
+                class="home-category6"
+                data-aos="zoom-in"
+                data-aos-delay="800"
+              >
+                <div class="home-headng2">
+                  <span class="home-text070">3 — Share Journey</span>
+                  <span class="home-text071">
+                    Share your walking experiences with the community.
+                    Outstanding posts earn rewards, fostering a motivating and
+                    engaging environment.
+                  </span>
+                </div>
+                <img
+                  alt="pastedImage"
+                  src="public/journey-1000w.png"
+                  class="home-pasted-image2"
+                />
+              </div>
+            </div>
+            <div class="home-row1">
+              <div
+                class="home-category7"
+                data-aos="zoom-in"
+                data-aos-delay="400"
+              >
+                <div class="home-headng3">
+                  <span class="home-text072">4 — Earn Rewards</span>
+                  <span class="home-text073">
+                    Earn rewards by completing tasks, engaging in airdrop
+                    events, and contributing to the community. Your active
+                    lifestyle supports local businesses and environmental
+                    conservation.
+                  </span>
+                </div>
+                <img
+                  alt="pastedImage"
+                  src="public/wallet-1000w.png"
+                  class="home-pasted-image3"
+                />
+              </div>
+              <div
+                class="home-category8"
+                data-aos="zoom-in"
+                data-aos-delay="800"
+              >
+                <div class="home-headng4">
+                  <span class="home-text074">5 — Level Up</span>
+                  <span class="home-text075">
+                    Level up by exploring new places. Track your impact with
+                    stats like trees saved, enhancing your journey as you
+                    venture beyond your comfort zone.
+                  </span>
+                </div>
+                <img
+                  alt="pastedImage"
+                  src="public/level-1000w.png"
+                  class="home-pasted-image4"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="cta" class="home-action-bar">
+          <div class="home-container12">
+            <div class="home-action" data-aos="zoom-in">
+              <div class="home-heading1">
+                <span class="home-text076 title">
+                  Get wandering with Wander.ly now!
+                </span>
+                <span class="home-text077">
+                  We stimulate people to engage more in real-world interactions
+                  by emerging digital rewards.
+                </span>
+                <div class="home-get-started6 template-button">
+                  <span class="home-text078">
+                    <span>Sign Up for Beta</span>
+                    <br />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div style="background-color: #000000">
+          <script
+            type="module"
+            src="https://unpkg.com/@splinetool/viewer@1.0.78/build/spline-viewer.js"
+          ></script>
+          <spline-viewer
+            loading-anim-type="spinner-big-light"
+            url="https://prod.spline.design/BoKGTJfLiMBun5ay/scene.splinecode"
+          ></spline-viewer>
+        </div>
+        <section id="faq" class="home-faq">
+          <div class="home-heading2">
+            <span class="home-text081 title">Frequently asked questions</span>
+            <span class="home-text082">
+              Got questions that need to be answered? We might already thought
+              of it in here. Feel free to reach out to us for additional
+              inquiries.
+            </span>
+          </div>
+          <div class="home-accordion">
+            <div data-faq="closed" class="accordionContainer">
+              <div class="home-header1">
+                <span class="home-text083">
+                  —&nbsp;Where can I download the app?
+                </span>
+                <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="accordionContent">
+                <span class="home-text084">
+                  Wander.ly is in an exclusive early access phase, available
+                  through Expo Go for both iOS and Android users. This platform
+                  enables us to gather valuable feedback and ensure a seamless
+                  experience for our community. Interested in being part of our
+                  testing group? Sign up below to get started. For Android
+                  enthusiasts, we also offer direct testing through an APK file.
+                  Keep an eye out for our official launch coming soon!
+                </span>
+              </div>
+            </div>
+            <div class="accordionContainer">
+              <div class="home-header2">
+                <span class="home-text085">
+                  —&nbsp;Is an Internet Identity account required to use
+                  Wander.ly?
+                </span>
+                <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="accordionContent">
+                <span class="home-text086">
+                  Yes, to ensure the highest level of security and leverage the
+                  benefits of blockchain technology with the ICP blockchain, an
+                  Internet Identity account is necessary for all users. The
+                  Internet Identity is an anonymizing blockchain authentication
+                  system on the Internet Computer that allows users to sign in
+                  securely and pseudonymously to dapps, without the need for
+                  passwords or personal information.
+                </span>
+              </div>
+            </div>
+            <div data-faq="closed" class="accordionContainer">
+              <div class="home-header3">
+                <span class="home-text087">
+                  — Why use ICP blockchain for Wander.ly?
+                </span>
+                <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="accordionContent">
+                <span class="home-text088">
+                  The Internet Computer Protocol (ICP) is a unique,
+                  general-purpose blockchain that hosts smart contracts, known
+                  as canisters. It's designed to act as a World Computer,
+                  replacing traditional IT and hosting a new generation of Web
+                  3.0 services and applications that run solely from the
+                  blockchain, without the need for traditional IT. By using ICP,
+                  Wander.ly taps into a framework that supports decentralized
+                  and tamper-proof data storage, ensuring the integrity and
+                  security of user activities and rewards. This approach allows
+                  for a transparent and secure environment, building a robust
+                  platform for community engagement and reward distribution.
+                </span>
+              </div>
+            </div>
+            <div data-faq="closed" class="accordionContainer">
+              <div class="home-header4">
+                <span class="home-text089">
+                  — How does the app track my walking goals/tasks?
+                </span>
+                <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="accordionContent">
+                <span class="home-text090">
+                  The app uses the built-in pedometer and GPS on your phone to
+                  monitor your walking activity and progress towards your daily
+                  goals. The app can check if the user is walking or not through
+                  various factors like speed, gyroscope, etc.
+                </span>
+              </div>
+            </div>
+            <div data-faq="closed" class="accordionContainer">
+              <div class="home-header5">
+                <span class="home-text091">
+                  — What kind of rewards can I earn by completing walking tasks?
+                </span>
+                <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="accordionContent">
+                <span class="home-text092">
+                  You can earn points that can be redeemed for discounts at
+                  local businesses or for exclusive in-app rewards.
+                </span>
+              </div>
+            </div>
+            <div data-faq="closed" class="accordionContainer">
+              <div class="home-header6">
+                <span class="home-text093">
+                  — How do I participate in airdrop events from local
+                  businesses?
+                </span>
+                <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="accordionContent">
+                <span class="home-text094">
+                  To participate in airdrop events, ensure your app's location
+                  services are enabled. When you walk within the specified
+                  radius of a participating local business, you'll receive a
+                  notification with the airdrop details. Simply follow the
+                  instructions to scan the QR code at the location to claim your
+                  rewards.
+                </span>
+              </div>
+            </div>
+            <div data-faq="closed" class="accordionContainer">
+              <div class="home-header7">
+                <span class="home-text095">
+                  —&nbsp;Can I share my walking journey with others in the app?
+                </span>
+                <svg viewBox="0 0 1024 1024" class="accordionIcon">
+                  <path
+                    d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="accordionContent">
+                <span class="home-text096">
+                  Absolutely! There is a "Walk with a friend" feature allowing
+                  you to walk with your friends simultaneously. After completing
+                  your walking tasks or attending airdrop events, you can even
+                  share pictures and experiences in the Community section of the
+                  app. Here, you can also engage with other wanderers' posts by
+                  liking, disliking, awarding, and even donating points to
+                  outstanding contributions.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="home-container13">
+              <script>
+                // Accordion - Code Embed
+
+                const accordionContainers = document.querySelectorAll(
+                  ".accordionContainer"
+                ); // All accordion containers
+                const accordionContents =
+                  document.querySelectorAll(".accordionContent"); // All accordion content
+                const accordionIcons =
+                  document.querySelectorAll(".accordionIcon"); // All accordion icons
+
+                accordionContents.forEach((accordionContent) => {
+                  accordionContent.style.display = "none"; //Hides all accordion contents
+                });
+
+                accordionContainers.forEach((accordionContainer, index) => {
+                  accordionContainer.addEventListener("click", () => {
+                    accordionContents.forEach((accordionContent) => {
+                      accordionContent.style.display = "none"; //Hides all accordion contents
+                    });
+
+                    accordionIcons.forEach((accordionIcon) => {
+                      accordionIcon.style.transform = "rotate(0deg)"; // Resets all icon transforms to 0deg (default)
+                    });
+
+                    if (
+                      accordionContainer.classList.contains("accordion-open")
+                    ) {
+                      // Checks if this container has class 'accordion-open'
+                      accordionContainer.classList.remove("accordion-open"); // Removes class 'accordion-open'
+                    } else {
+                      accordionContainers.forEach((accordionContainer) => {
+                        accordionContainer.classList.remove("accordion-open"); // Removes class 'accordion-open' from all containers
+                      });
+
+                      accordionContainer.classList.add("accordion-open"); // Adds class 'accordion-open' to this container
+                      accordionContents[index].style.display = "flex"; // Shows accordion content
+                      accordionIcons[index].style.transform = "rotate(180deg)"; // Rotates accordion icon 180deg
+                    }
+                  });
+                });
+
+                /*
+                Here's what the above is doing:
+                    1. Selects all accordion containers, contents, and icons
+                    2. Hides all accordion contents
+                    3. Adds an event listener to each accordion container
+                    4. When an accordion container is clicked, it:
+                        - Hides all accordion contents
+                        - Resets all icon transforms to 0deg (default)
+                        - Checks if this container has class 'accordion-open'
+                            - If it does, it removes class 'accordion-open'
+                            - If it doesn't, it:
+                                - Removes class 'accordion-open' from all containers
+                                - Adds class 'accordion-open' to this container
+                                - Shows accordion content
+                                - Rotates accordion icon 180deg
+                */
+              </script>
+            </div>
+          </div>
+        </section>
+        <footer id="footer" class="home-footer">
+          <div class="home-top">
+            <div class="home-left4">
+              <span class="home-text097">Subscribe to our newsletter</span>
+              <div class="home-subscription">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="home-textinput input"
+                />
+                <div class="home-subscribe">
+                  <span class="home-text098">Subscribe</span>
+                </div>
+              </div>
+              <span class="home-text099">
+                By subscribing to our newsletter you agree with our Terms and
+                Conditions.
+              </span>
+            </div>
+          </div>
+          <div class="home-bottom">
+            <div class="home-container14">
+              <img
+                alt="pastedImage"
+                src="public/logo-200h.png"
+                class="home-branding"
+                data-aos="flip-up"
+              />
+              <span class="home-text100">
+                <span class="home-text101">Copyright © Wander.ly - 2024</span>
+                <br />
+              </span>
+            </div>
+            <div class="home-container15">
+              <div class="home-container16">
+                <a
+                  href="mailto:melpalana13@gmail.com?subject=Wander.ly Inquiry"
+                  class="home-link7"
+                >
+                  <svg viewBox="0 0 1024 1024" class="home-icon28">
+                    <path
+                      d="M512 640q52 0 90-38t38-90-38-90-90-38-90 38-38 90 38 90 90 38zM512 86q176 0 301 125t125 301v62q0 64-43 108t-105 44q-78 0-126-64-64 64-152 64t-151-63-63-151 63-151 151-63 151 63 63 151v62q0 26 19 46t45 20 45-20 19-46v-62q0-140-101-241t-241-101-241 101-101 241 101 241 241 101h214v84h-214q-176 0-301-125t-125-301 125-301 301-125z"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://github.com/spcf-coMeLex/wander.ly"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link8"
+                >
+                  <svg viewBox="0 0 877.7142857142857 1024" class="home-icon30">
+                    <path
+                      d="M438.857 73.143c242.286 0 438.857 196.571 438.857 438.857 0 193.714-125.714 358.286-300 416.571-22.286 4-30.286-9.714-30.286-21.143 0-14.286 0.571-61.714 0.571-120.571 0-41.143-13.714-67.429-29.714-81.143 97.714-10.857 200.571-48 200.571-216.571 0-48-17.143-86.857-45.143-117.714 4.571-11.429 19.429-56-4.571-116.571-36.571-11.429-120.571 45.143-120.571 45.143-34.857-9.714-72.571-14.857-109.714-14.857s-74.857 5.143-109.714 14.857c0 0-84-56.571-120.571-45.143-24 60.571-9.143 105.143-4.571 116.571-28 30.857-45.143 69.714-45.143 117.714 0 168 102.286 205.714 200 216.571-12.571 11.429-24 30.857-28 58.857-25.143 11.429-89.143 30.857-127.429-36.571-24-41.714-67.429-45.143-67.429-45.143-42.857-0.571-2.857 26.857-2.857 26.857 28.571 13.143 48.571 64 48.571 64 25.714 78.286 148 52 148 52 0 36.571 0.571 70.857 0.571 81.714 0 11.429-8 25.143-30.286 21.143-174.286-58.286-300-222.857-300-416.571 0-242.286 196.571-438.857 438.857-438.857zM166.286 703.429c1.143-2.286-0.571-5.143-4-6.857-3.429-1.143-6.286-0.571-7.429 1.143-1.143 2.286 0.571 5.143 4 6.857 2.857 1.714 6.286 1.143 7.429-1.143zM184 722.857c2.286-1.714 1.714-5.714-1.143-9.143-2.857-2.857-6.857-4-9.143-1.714-2.286 1.714-1.714 5.714 1.143 9.143 2.857 2.857 6.857 4 9.143 1.714zM201.143 748.571c2.857-2.286 2.857-6.857 0-10.857-2.286-4-6.857-5.714-9.714-3.429-2.857 1.714-2.857 6.286 0 10.286s7.429 5.714 9.714 4zM225.143 772.571c2.286-2.286 1.143-7.429-2.286-10.857-4-4-9.143-4.571-11.429-1.714-2.857 2.286-1.714 7.429 2.286 10.857 4 4 9.143 4.571 11.429 1.714zM257.714 786.857c1.143-3.429-2.286-7.429-7.429-9.143-4.571-1.143-9.714 0.571-10.857 4s2.286 7.429 7.429 8.571c4.571 1.714 9.714 0 10.857-3.429zM293.714 789.714c0-4-4.571-6.857-9.714-6.286-5.143 0-9.143 2.857-9.143 6.286 0 4 4 6.857 9.714 6.286 5.143 0 9.143-2.857 9.143-6.286zM326.857 784c-0.571-3.429-5.143-5.714-10.286-5.143-5.143 1.143-8.571 4.571-8 8.571 0.571 3.429 5.143 5.714 10.286 4.571s8.571-4.571 8-8z"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+              <span class="home-text103">
+                <span class="home-text104">
+                  The team is composed by two talented developers:
+                </span>
+                <br class="home-text105" />
+                <span class="home-text106">
+                  Mel Mathew Palaña and Alexander John Camaddo
+                </span>
+                <br />
+              </span>
+            </div>
+          </div>
+        </footer>
+        <a href="#">
+          <div class="home-slide-to-top">
+            <svg viewBox="0 0 1024 1024" class="home-icon32">
+              <path
+                d="M512 135.339l-273.664 273.664c-33.323 33.323-33.323 87.339 0 120.661s87.339 33.323 120.661 0l67.669-67.669v308.992c0 47.104 38.187 85.333 85.333 85.333 47.104 0 85.333-38.229 85.333-85.333v-308.992l67.669 67.669c16.683 16.683 38.485 25.003 60.331 25.003s43.648-8.32 60.331-25.003c33.323-33.323 33.323-87.339 0-120.661l-273.664-273.664z"
+              ></path>
+            </svg>
+          </div>
+        </a>
+        <div>
+          <script>
+            window.addEventListener("scroll", function () {
+              var heroSection = document.querySelector(".home-hero");
+              var slideToTop = document.querySelector(".home-slide-to-top");
+              var heroSectionHeight = heroSection.offsetHeight;
+
+              if (window.pageYOffset > heroSectionHeight) {
+                slideToTop.classList.add("active");
+              } else {
+                slideToTop.classList.remove("active");
+              }
+            });
+          </script>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vendor JS Files -->
+    <script src="./assets/vendor/aos/aos.js"></script>
+
+    <script>
+      /**
+       * Animation on scroll
+       */
+      window.addEventListener("load", () => {
+        AOS.init({
+          duration: 800,
+          easing: "ease-in-out",
+          once: true,
+          mirror: false,
+        });
+      });
+    </script>
+  </body>
+</html>
