@@ -52,7 +52,7 @@
   flex-direction: column;
 }
 .home-close-mobile-menu {
-  top: var(--dl-space-space-twounits);
+  top: var(--dl-space-space-oneandhalfunits);
   right: var(--dl-space-space-oneandhalfunits);
   width: var(--dl-size-size-small);
   height: var(--dl-size-size-small);
