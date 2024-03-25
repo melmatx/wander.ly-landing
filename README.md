@@ -1,7 +1,7 @@
 # Deployed Canister URL
 
 ```
-https://yb3ic-2qaaa-aaaap-qcezq-cai.icp0.io/
+https://mc6mb-riaaa-aaaan-qmafa-cai.icp0.io/
 ```
 
 # Initializing DFX
